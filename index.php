@@ -12,8 +12,8 @@
     <div class="nav">
       <form action="" method = "get">
         <center>
-          <button type = "submit" <?=@$_GET['page'] === "segitiga" ? 'style="background-color :blue;"' : ""; ?>><a href="?page=segitiga"  <?= @$_GET['page'] ==="segitiga" ? 'style="color: white;"' : "";?>>Luas segitiga</a></button>
-          <button type = "submit" <?=@$_GET['page'] === "persegi" ? 'style="background-color : blue;"' : ""; ?>> <a href="?page=persegi"  <?= @$_GET['page'] ==="persegi" ? 'style="color: white;"' : "";?> >Luas persegi panjang</a></button>
+          <button type = "submit" <?=@$_GET['page'] === "segitiga" ? 'style="background-color : white;"' : ""; ?>><a href="?page=segitiga"  <?= @$_GET['page'] ==="segitiga" ? 'style="color: black;"' : "";?>>Luas segitiga</a></button>
+          <button type = "submit" <?=@$_GET['page'] === "persegi" ? 'style="background-color : white;"' : ""; ?>> <a href="?page=persegi"  <?= @$_GET['page'] ==="persegi" ? 'style="color: black;"' : "";?> >Luas persegi panjang</a></button>
         </center>
       </form>
     </div>
